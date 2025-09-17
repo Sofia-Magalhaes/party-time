@@ -16,3 +16,14 @@ GET http://localhost:3000/api/services/68cacdeee1a8c773c2cf5304
 
 ###
 DELETE http://localhost:3000/api/services/68cacf449f9c3a6c23125b5b
+
+###
+PUT  http://localhost:3000/api/services/68cad25f81c141f52506efaf
+Content-Type: application/json
+
+{
+    "name": "Fiesta Salsa",
+    "description": "Alguma descrição!",
+    "price": 1754,
+    "image": "https://i.pinimg.com/736x/78/3d/47/783d478fde50b0f1d23ed5db8e9e2dee.jpg"
+}
