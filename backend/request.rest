@@ -64,3 +64,29 @@ GET http://localhost:3000/api/parties/68cadc547cc70c7ec34018ec
 ###
 DELETE http://localhost:3000/api/parties/68cadc547cc70c7ec34018ec
 
+###
+PUT http://localhost:3000/api/parties/68caddd410b1b10fd5853d7f
+Content-Type: application/json
+
+{
+    "title": "Festa dos Aghaters",
+    "author": "Sofia",
+    "description": "Festa no bar da Lora",
+    "budget": 10000,
+    "image": "https://i.pinimg.com/736x/59/3b/06/593b06922df153017516d0a6b4a144d3.jpg",
+    "services": 
+    [
+        {
+            "name": "Pepita",
+            "description": "Hãn",
+            "price": 1760,
+            "image": "https://i.pinimg.com/736x/68/64/5f/68645fae490984c9943e95de11f60ffc.jpg"
+        },   
+        {
+            "name": "Camila Loures",
+            "description": "nu vai tomando",
+            "price": 1800,
+            "image": "https://i.pinimg.com/736x/eb/66/b6/eb66b68e45cb44fa8769313673076dba.jpg"
+        }      
+    ]
+}
