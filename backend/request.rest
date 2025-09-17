@@ -2,10 +2,10 @@ POST http://localhost:3000/api/services
 Content-Type: application/json
 
 {
-    "name": "Algum serviço 2",
-    "description": "Alguma descrição",
-    "price": 1760,
-    "image": "https://i.pinimg.com/1200x/29/80/31/2980313f1528619b4b8bc2f2a25f5847.jpg"
+   "name": "Cuppcake",
+    "description": "Um doce de pessoas, músicas mais infantis e mais calmas",
+    "price": 1400,
+    "image": "https://i.pinimg.com/736x/8e/bd/3f/8ebd3f88a31e16be0123eeff557064e4.jpg"
 }
 
 ###
