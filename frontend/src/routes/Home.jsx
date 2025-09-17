@@ -3,6 +3,8 @@ import { useState, useEffect } from "react"
 
 import { Link } from "react-router-dom"
 
+import "./style/Home.css"
+
 const Home = () => {
     const [parties, setParties] = useState(null)
 
