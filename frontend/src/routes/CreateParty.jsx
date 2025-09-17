@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import partyFetch from "../axios/config"
 import { useNavigate } from "react-router-dom"
+import "./style/Form.css"
 
 
 const CreateParty = () => {
