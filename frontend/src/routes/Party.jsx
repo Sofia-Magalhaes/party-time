@@ -19,7 +19,6 @@ const Party = () => {
     useEffect(() => {
         const loadParty = async () => {
             const res = await partyFetch.get(`/parties/${id}`)
-            console.log(res.data);
             setParty(res.data)
         }
         loadParty()
