@@ -39,3 +39,15 @@ O projeto é organizado em dois diretórios principais:
     *   `index.html`: Arquivo HTML principal.
     *   `package.json`: Dependências e scripts do frontend.
     *   `vite.config.js`: Configuração do Vite.
+
+## Funcionalidades
+
+Este projeto permite:
+
+*   Criar e gerenciar festas.
+*   Visualizar detalhes das festas.
+  
+## Funcionalidades Futuras
+*   Autenticação de usuário
+*   Reformulação do design
+*   CRUD de serviços
